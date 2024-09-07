@@ -9683,7 +9683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rightHand: {fileID: 2127981814}
   nodePrefab: {fileID: 7771860327030008864, guid: 90fdfd178002545c6a42b04c0099c459, type: 3}
-  lineMaker: {fileID: 0}
+  lineMaker: {fileID: 2127981816}
 --- !u!4 &1798476972
 Transform:
   m_ObjectHideFlags: 0
