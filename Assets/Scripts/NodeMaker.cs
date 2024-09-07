@@ -11,6 +11,7 @@ public class NodeMaker : MonoBehaviour
 
     public void InstantiateNode()
     {
+        Debug.Log("Node Instantiated");
         GameObject lastNode = Instantiate(nodePrefab, rightHand.position, rightHand.rotation);
         lineMaker.lastNode = lastNode.GetComponent<Node>();
     }
