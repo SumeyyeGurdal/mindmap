@@ -43,11 +43,11 @@ public class Node : MonoBehaviour
 
     public void ClickedGripWhileHandInNode()
     {
-        if (isHandTouching)
-        {
+        
+        
             gripActivated = true;
 
-        }
+        
     }
 
     public void UnClickedGripWhileHandInNode()

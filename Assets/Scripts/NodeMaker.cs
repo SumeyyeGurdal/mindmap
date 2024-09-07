@@ -7,13 +7,13 @@ public class NodeMaker : MonoBehaviour
 {
     public Transform rightHand;
     public GameObject nodePrefab;
+    public LineMaker lineMaker;
+
     public void InstantiateNode()
     {
-        Instantiate(nodePrefab, rightHand.position, rightHand.rotation);
+        GameObject lastNode = Instantiate(nodePrefab, rightHand.position, rightHand.rotation);
+        lineMaker.lastNode = lastNode.GetComponent<Node>();
     }
 
-    private void Start()
-    {
-        InstantiateNode();
-    }
+    
 }
